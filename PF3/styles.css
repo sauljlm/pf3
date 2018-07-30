@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin:0;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+.container{
+  position: relative;
+}
+/*formulario*/
+body {
+	background-color: #DFEDFF;
+}
+.btn__submit {
+	width: 40%;
+	border-bottom: none;
+	background-color: #31B1E5;
+  color: white;
+}
+.btn__reset {
+  width: 40%;
+	border-bottom: none;
+  background-color: #EDA135;
+  color: white;
+}
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+#btn{
+  background-color: #31B1E5;
+  margin-left: 28px;
+}
+#btn2{
+  width: 34.4%;
+  background-color: #EDA135;
+  position: absolute;
+  left: 240px;
+  top:358px;
+}
+#btn:hover {
+	background-color: rgb(0, 89, 153);
+}
+
+#btn2:hover{
+	background-color: rgb(214, 104, 0);
+}
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+}
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 0rem 0 1rem;
+	border-top: solid .4rem #F39B53;
+	margin-bottom: 1rem;
+}
+.form__top h2 {
+	font-weight: bold;
+	color: rgb(87, 87, 87);
+	font-size: 18px;
+}
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+html {
+	font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+h2 span {
+	color: #F39B53;
+}
+h2, h4{
+  text-align: center;
+  margin-top: 10%;
+}
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+#no{
+  text-decoration: none;
+  color: white;
+  background: rgb(72, 148, 247);
+  padding: 2.5% 7%;
+}
+#no:hover{
+  background: rgb(3, 75, 168);
+}
+.Nlibreria{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#si{
+  text-decoration: none;
+  color: white;
+  background: rgb(72, 148, 247);
+  padding: 2.5% 7%;
+  margin-left: 34%;
+}
+.pregunta{
+  margin-top:5%;
+}
+#si:hover{
+  background: rgb(3, 75, 168);
+}
+/*libros*/
+.carrito{
+  text-decoration: none;
+  color: #FC8A17;
+  margin-right: 10%;
+  margin-top: 2px;
+  font-weight: bold;
+  float: right;
+}
+.carrito1{
+  text-decoration: none;
+  color: #FC8A17;
+  margin-right: 10%;
+  margin-top: 2px;
+  font-weight: bold;
+  float: right;
+  position: absolute;
+  left: 450px;
+  top:200px;
+}
+.cont {
+  text-align: center;
+  background-color: rgb(17, 144, 248);
+  padding:10px 0;
+}
+.footer{
+  text-align: center;
+  background-color: rgb(17, 144, 248);
+  padding:10px 0;
+}
+.info{
+  float: right;
+  padding: 5px;
+}
+#materia{
+  position: absolute;
+  left: 250px;
+  top:12px;
+}
+.meme1{
+  float: right;
+  position: absolute;
+  left:0;
+  top:0;
+  bottom: 0;
+}
+.meme2{
+  float: right;
+  position: absolute;
+  left:700px;
+  top:-852px;
+}
+.meme3{
+  float: right;
+  position: absolute;
+  left:700px;
+  top:-610px;
+}
+.meme4{
+  float: right;
+  position: absolute;
+  left:700px;
+  top:-328px;
+}
+.libro{
+  width: 60%;
+  padding: 2%;
+  border: 1px solid grey;
+  margin: 2%;
+  border-radius: 5px;
+  position: relative;
+}
+.lorem{
+  width: 45%;
+  text-align: justify;
+  position: absolute;
+  left: 250px;
+  top: 45px;
+}
+#precio{
+  position: absolute;
+  left: 250px;
+  top:190px;
+}
+.publicidad{
+  position: relative;
+}
+.titulo{
+  margin-top: 0;
+  display: inline;
+  margin-left: 13%;
+}
